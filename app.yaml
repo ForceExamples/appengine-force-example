@@ -3,3 +3,5 @@ runtime: custom
 vm: true
 api_version: 1
 threadsafe: true
+env_variables:
+  DART_VM_OPTIONS: '--enable-async'
